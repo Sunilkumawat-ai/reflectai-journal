@@ -18,7 +18,20 @@ ReflectAI is a production-ready, user-authenticated reflection and journaling we
    - Seamless fallback architecture (`gemini-3.6-flash` &rarr; `gemini-3.1-flash-lite` &rarr; `gemini-flash-latest` &rarr; `gemini-3.7-flash`) with error status recovery (`503`, `429`, `500`).
 5. **Zero Client-Side Secret Leakage**:
    - All Gemini API calls are strictly routed through backend `/api/gemini/reflect` endpoints.
+  
+---
 
+## Unique Features (Beyond the Base Template)
+
+- **Mood Trends Chart**: A visual breakdown on the entries view showing the 
+  distribution of moods (Reflective, Calm, Grateful, Optimistic, Energized) 
+  across all journal entries, with live percentages and click-to-filter 
+  functionality — clicking a mood filters the entry list to just that mood.
+
+- **Custom Purple UI Theme**: A calming, custom color palette 
+  (`#50207A`, `#D6B9FC`, `#838CE5`) designed to give the app a distinct, 
+  sanctuary-like feel rather than a generic default template look.
+  
 ---
 
 ## 🏗️ Architecture & Security Threat Model
