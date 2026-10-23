@@ -142,3 +142,15 @@ gcloud run services update reflectai-app \
    - Verify both entries appear in the sidebar with word counts, turn counts, and mood badges.
    - Use the search bar to filter entries by keyword or mood.
    - Sign out and sign in with a different user account; verify that entries from the first account are completely inaccessible.
+
+---
+
+## 💻 Run Locally
+
+```bash
+npm install
+cp .env.example .env   # then add your GEMINI_API_KEY
+npm run dev
+```
+
+Open the URL printed in the terminal. Sign-in and saving use the Firebase project configured in `firebase-applet-config.json`. Replace its values with your own project's config to use your own Firestore.
