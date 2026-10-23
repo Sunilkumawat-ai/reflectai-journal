@@ -1,9 +1,12 @@
 # ReflectAI - Intelligent Personal Journaling & Multi-Turn Reflection Assistant
 
-ReflectAI is a production-ready, user-authenticated reflection and journaling web application built on **Google Cloud Run**, **Google Cloud Firestore**, **Firebase Authentication**, and the **Gemini 3.6 Flash API**.
+ReflectAI is a user-authenticated reflection and journaling web application built on **Google Cloud Run**, **Google Cloud Firestore**, **Firebase Authentication**, and the **Gemini 3.6 Flash API**.
 
+> **Status:** Not deployed yet (Cloud Run needs a billing account), so there is no live demo link. The deployment steps below are documented for when it is hosted.
+>
+> **Security note:** The Firebase web API key in `firebase-applet-config.json` is public by design. It is restricted to the Identity Toolkit, Token Service and Cloud Firestore APIs, and user data is protected by the Firestore security rules below. 
 ---
-
+l
 ## 🌟 Key Features
 
 1. **Secure Federated Authentication**:
