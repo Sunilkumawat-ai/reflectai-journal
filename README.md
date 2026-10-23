@@ -6,7 +6,7 @@ ReflectAI is a user-authenticated reflection and journaling web application buil
 >
 > **Security note:** The Firebase web API key in `firebase-applet-config.json` is public by design. It is restricted to the Identity Toolkit, Token Service and Cloud Firestore APIs, and user data is protected by the Firestore security rules below. 
 ---
-l
+
 ## 🌟 Key Features
 
 1. **Secure Federated Authentication**:
